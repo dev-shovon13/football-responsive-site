@@ -53,6 +53,9 @@ nav{
     color: white;
     margin-right: 30px;
 }
+.menu-items a:nth-child(last){
+    margin-right: 0;
+}
 /* top section  */
 .top-section{
     width: 80%;
@@ -359,6 +362,9 @@ footer i:hover{
 @media (min-width:769px) and (max-width:1023px){
     nav{
         margin: auto;
+    }
+    .menu-items a{
+        margin-right: 10px;
     }
     .top-section{
         /* padding-bottom: 20px;
