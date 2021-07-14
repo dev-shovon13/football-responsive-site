@@ -1,0 +1,77 @@
+/* fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* utilities */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    background: #E02C6D;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 25px;
+    outline: none;
+    border: 1px solid #c52560;
+}
+button:hover{
+    background: #bd1653e8;
+    cursor: pointer;
+}
+button i{
+    margin: 0 5px;
+}
+/* header  */
+header{
+    background: #2D25A0 ;
+}
+
+/* nav  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    width: 80%;
+    margin: auto;
+}
+.menu-items a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+
+/* top section  */
+.top-section{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.heading{
+    margin-top: 50px;
+}
+.heading h1{
+    font-size: 60px;
+    line-height: 80px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.side-image img{
+    width: 500px;
+    transition: transform 1s ease-in-out;
+
+}
+.side-image img:hover{
+    transform: translateX(-80px);
+    cursor: pointer;
+}
