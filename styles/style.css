@@ -12,6 +12,10 @@ body{
     font-family: 'Poppins', sans-serif;
     color: rgb(15, 15, 15);
 }
+.container{
+    width: 80%;
+    margin: auto;
+}
 button{
     background: #E02C6D;
     color: white;
@@ -35,12 +39,9 @@ header{
 
 /* nav  */
 nav{
-    width: 80%;
-    /* margin: auto; */
-}
-.center-align{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px 0;
 }
 .fa-bars{
@@ -58,8 +59,6 @@ nav{
 }
 /* top section  */
 .top-section{
-    width: 80%;
-    margin: auto;
     padding-bottom: 60px;
     padding-top: 30px;
     display: grid;
@@ -87,16 +86,13 @@ nav{
 
 
 /* main section  */
-.width-set{
-    width: 70%;
-    margin: 70px auto;
-}
 /* players  */
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
     margin-bottom: 100px;
+    margin-top: 70px;
 }
 .player{
     padding: 10px;
@@ -132,8 +128,6 @@ nav{
     margin: 30px auto;
 }
 .points{
-    width: 70%;
-    margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
@@ -153,8 +147,6 @@ nav{
 /* bottom section  */
 
 .bottom-section{
-    width: 70%;
-    margin: auto;
     padding-top: 30px;
     margin-bottom: 100px;
     display: grid;
@@ -187,7 +179,6 @@ nav{
 /* news box section  */
 
 .news-section{
-    width: 70%;
     margin: 100px auto; 
 }
 .news-section h2{
