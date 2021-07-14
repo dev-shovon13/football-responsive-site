@@ -306,9 +306,9 @@ footer i:hover{
         margin-bottom: 20px;
     }
     .side-image img{
-        margin-left: 70px;
+        margin-left: 40px;
         margin-top: 30px;
-        width: 350px;
+        width: 330px;
     }
     .players{
         grid-template-columns: repeat(1,1fr);
